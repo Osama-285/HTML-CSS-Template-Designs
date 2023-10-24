@@ -19,3 +19,11 @@
   font-size: 30px;
   font-family: sans-serif;
 }
+.sidenav .navbar {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.sidenav .navbar_list {
+  list-style-type: none;
+}
