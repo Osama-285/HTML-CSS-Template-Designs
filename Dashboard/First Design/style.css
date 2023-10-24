@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f1f6fa;
+  position: relative;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f6fa;
+  padding: 8px;
+}
+.main_body {
+  /* border: 2px solid red; */
+  width: 85%;
+  height: 97vh;
+}
