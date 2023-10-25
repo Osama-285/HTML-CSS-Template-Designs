@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body {
-  background-color: #f1f6fa;
+  background-color: #d8eaf8;
   position: relative;
 }
 .main {
@@ -11,7 +11,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #f1f6fa;
+  background-color: #deeaf4;
   padding: 8px;
 }
 .main_body {
