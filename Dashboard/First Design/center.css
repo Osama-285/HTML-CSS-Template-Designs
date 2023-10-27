@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.main_body {
+  /* border: 2px solid red; */
+  width: 85%;
+  height: 95vh;
+  padding: 5px;
+}
+.main_top {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 10%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_body .main_top .search {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 12px;
+  /* justify-content: center; */
+}
+.main_body .main_top .search input {
+  width: 70%;
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  color: #777b85;
+  margin-left: 5px;
+  font-family: "Manrope", sans-serif;
+  border-radius: 5px;
+}
+.main_body .main_top .search input:focus {
+  color: #777b85;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  border: none !important;
+  outline: none !important;
+  background-color: #e2eef8;
+}
+
+.main_body .main_top .search button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #777b85;
+  font-size: 13px;
+}
+.main_body .main_top .search button .icon {
+  font-size: 17px;
+}
+.main_body .main_top .profile_info {
+  /* border: 2px solid red; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  width: 40%;
+  height: 100%;
+  padding-right: 20px;
+  color: #777b85;
+  /* margin-left: 5px; */
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+}
+.main_body .main_top .profile_info .profile_photo {
+  margin-right: 15px;
+  width: 40px;
+  /* border: 2px solid red; */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 800;
+  background-color: #0560fd;
+}
+.main_body .main_top .profile_info .profile_photo h3 {
+  color: white;
+}
