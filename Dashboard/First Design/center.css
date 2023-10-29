@@ -38,7 +38,7 @@
   font-family: "Manrope", sans-serif;
   border: none !important;
   outline: none !important;
-  background-color: #e2eef8;
+  background-color: transparent;
 }
 
 .main_body .main_top .search button {
@@ -386,13 +386,13 @@
 
 .main_body .center_mid {
   width: 100%;
-  /* border: 1px solid red; */
+
   height: 80%;
   display: inline-flex;
   flex-direction: column;
 }
 .main_body .center_mid .center {
-  height: 60%;
+  height: 55%;
   display: inline-flex;
   align-items: center;
   /* padding: 4px; */
@@ -564,4 +564,23 @@
 .main_body .center_mid .center .graph .bar_graph .bar .nov_graph:hover,
 .main_body .center_mid .center .graph .bar_graph .bar .dec_graph:hover {
   background-color: #0560fd; /* Change the background color on hover */
+}
+.main_body .center_mid .center .center_right {
+  width: 39%;
+  height: 90%;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 12px;
+}
+.main_body .center_mid .center .center_right .invoice_heading {
+  color: #777b85;
+  font-family: "Manrope", sans-serif;
+}
+.main_body .center_mid .center .center_right .invoice_table {
+  border: 2px solid red;
+  height: 90%;
 }
