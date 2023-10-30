@@ -574,7 +574,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 12px;
+  padding: 12px 24px;
 }
 .main_body .center_mid .center .center_right .invoice_heading {
   color: #777b85;
@@ -583,29 +583,20 @@
 .main_body .center_mid .center .center_right .table-container {
   /* border: 2px solid red; */
   overflow: auto;
-
+  width: 100%;
   height: 90%;
-  padding: 2px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  position: sticky;
-  top: 0;
-  background-color: #f2f2f2;
-  width: 100%;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
+.main_body .center_mid .center .center_right .table-container .table_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 11px;
+  border-top: 0.1px solid #5454554f;
+  border-bottom: 0.1px solid #5454554f;
+  padding: 4px 0px;
+  font-family: "Manrope", sans-serif;
+  color: #777b85;
 }
