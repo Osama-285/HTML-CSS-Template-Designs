@@ -580,30 +580,32 @@
   color: #777b85;
   font-family: "Manrope", sans-serif;
 }
-.main_body .center_mid .center .center_right .invoice_table {
+.main_body .center_mid .center .center_right .table-container {
   /* border: 2px solid red; */
+  overflow: auto;
+
   height: 90%;
   padding: 2px;
 }
-.main_body
-  .center_mid
-  .center
-  .center_right
-  .invoice_table
-  table
-  tbody
-  tr
-  .table_heading {
-  color: #777b85;
-  font-family: "Manrope", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  /* display: inline-flex; */
-  /* justify-content: center; */
 
-  /* align-items: center; */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
-.main_body .center_mid .center .center_right .invoice_table table tbody tr {
-  border: 2px solid red;
-  /* align-items: center; */
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
