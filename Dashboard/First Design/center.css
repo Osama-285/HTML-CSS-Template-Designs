@@ -581,6 +581,29 @@
   font-family: "Manrope", sans-serif;
 }
 .main_body .center_mid .center .center_right .invoice_table {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 90%;
+  padding: 2px;
+}
+.main_body
+  .center_mid
+  .center
+  .center_right
+  .invoice_table
+  table
+  tbody
+  tr
+  .table_heading {
+  color: #777b85;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  /* display: inline-flex; */
+  /* justify-content: center; */
+
+  /* align-items: center; */
+}
+.main_body .center_mid .center .center_right .invoice_table table tbody tr {
+  border: 2px solid red;
+  /* align-items: center; */
 }
