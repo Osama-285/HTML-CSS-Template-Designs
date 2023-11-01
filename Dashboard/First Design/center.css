@@ -588,6 +588,8 @@
   padding-top: 10px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 .main_body .center_mid .center .center_right .table-container .table_heading {
   display: flex;
@@ -600,6 +602,63 @@
   font-family: "Manrope", sans-serif;
   color: #777b85;
   text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.main_body
+  .center_mid
+  .center
+  .center_right
+  .table-container
+  .table_heading
+  .heading {
+  /* border: 2px solid red; */
+  width: 20%;
+  text-align: center;
+}
+
+.main_body
+  .center_mid
+  .center
+  .center_right
+  .table-container
+  .table_content
+  table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.main_body .center_mid .center .center_right .table-container .table_content {
+  /* overflow: auto;
+   */
+  overflow-y: scroll; /* Hide the vertical scrollbar */
+  position: relative;
+}
+
+.main_body
+  .center_mid
+  .center
+  .center_right
+  .table-container
+  .table-content::-ms-scrollbar {
+  width: 12px; /* Make the track transparent */
+}
+.main_body
+  .center_mid
+  .center
+  .center_right
+  .table-container
+  .table-content::-webkit-scrollbar {
+  width: 12px;
+}
+.main_body
+  .center_mid
+  .center
+  .center_right
+  .table-container
+  .table-content::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
 }
 .main_body
   .center_mid
@@ -607,16 +666,18 @@
   .center_right
   .table-container
   .table_content
-  tr {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
-  font-size: 11px;
-  border-top: 0.1px solid #5454554f;
-  border-bottom: 0.1px solid #5454554f;
+  table
+  tbody
+  tr
+  td {
+  font-size: 10px;
+  /* border-top: 0.1px solid #5454554f; */
+  /* border-bottom: 0.1px solid #5454554f; */
   padding: 4px 0px;
   font-family: "Manrope", sans-serif;
   color: #777b85;
-  text-align: left;
-  border: 2px solid red;
+  width: 20%;
+  text-align: center;
+  /* border: 2px solid red; */
+  margin: 0px !important;
 }
