@@ -1,0 +1,83 @@
+.main_body .main_center .center_mid .center_bottom {
+  width: 100%;
+  height: 45%;
+  /* border: 1px solid blue; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_body .main_center .center_mid .center_bottom .activites {
+  width: 38%;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_heading {
+  margin-bottom: 8px;
+  font-family: "Manrope", sans-serif;
+  color: #777b85;
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content {
+  width: 100%;
+  height: 100%;
+
+  /* padding: 0px 2%; */
+}
+
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content
+  .created_invoice {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-left: 8px; */
+  height: 100%;
+  width: 100%;
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content
+  .created_invoice
+  .person_info {
+  height: 100%;
+  width: 30%;
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content
+  .created_invoice
+  .invoice_info {
+  height: 100%;
+  width: 65%;
+  margin-left: 8px;
+}
+
+.main_body .main_center .center_mid .center_bottom .pending_task {
+  width: 60%;
+  border-radius: 13px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
