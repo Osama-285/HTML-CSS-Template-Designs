@@ -87,6 +87,21 @@
   .activites
   .activites_content
   .created_invoice
+  .person_info
+  .profile_gap {
+  height: 50px;
+  width: 5.5px;
+  border-radius: 2px;
+  margin: 10px 0px;
+  background-color: #d2d0d0;
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content
+  .created_invoice
   .invoice_info {
   height: 100%;
   width: 65%;
