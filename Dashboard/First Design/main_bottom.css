@@ -59,13 +59,15 @@
   .activites_content
   .created_invoice
   .person_info {
-  border: 1px solid red;
-  height: 100%;
-  width: 20%;
+  /* border: 1px solid red; */
+  height: 65%;
+  width: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
+  margin-left: 30px;
 }
 .main_body
   .main_center
@@ -103,9 +105,38 @@
   .activites_content
   .created_invoice
   .invoice_info {
-  height: 100%;
-  width: 65%;
-  margin-left: 8px;
+  /* border: 1px solid red; */
+  height: 65%;
+  width: 75%;
+}
+
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content
+  .created_invoice
+  .invoice_info
+  .invoice_icon {
+  color: green;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content
+  .created_invoice
+  .invoice_info
+  .invoice_icon
+  .new_invoice {
+  margin-right: 8px;
+  margin-bottom: 3px;
 }
 
 .main_body .main_center .center_mid .center_bottom .pending_task {
