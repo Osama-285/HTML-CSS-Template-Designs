@@ -33,8 +33,19 @@
   .activites_content {
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
 
   /* padding: 0px 2%; */
+}
+.main_body
+  .main_center
+  .center_mid
+  .center_bottom
+  .activites
+  .activites_content::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0px;
+  scroll-behavior: smooth;
 }
 
 .main_body
@@ -48,8 +59,9 @@
   flex-direction: row;
   align-items: center;
   /* margin-left: 8px; */
-  height: 100%;
+  height: 80%;
   width: 100%;
+  /* border: 2px solid red; */
 }
 .main_body
   .main_center
@@ -60,7 +72,7 @@
   .created_invoice
   .person_info {
   /* border: 1px solid red; */
-  height: 65%;
+  height: 100%;
   width: 10%;
   display: flex;
   flex-direction: column;
@@ -94,8 +106,9 @@
   height: 50px;
   width: 5.5px;
   border-radius: 2px;
-  margin: 10px 0px;
+  margin: 20px 0px;
   background-color: #d2d0d0;
+  /* border: 2px solid red; */
 }
 .main_body
   .main_center
@@ -106,7 +119,7 @@
   .created_invoice
   .invoice_info {
   /* border: 1px solid red; */
-  height: 65%;
+  height: 90%;
   width: 75%;
   display: flex;
   flex-direction: column;
