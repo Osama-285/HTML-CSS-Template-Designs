@@ -100,7 +100,7 @@
   color: white;
   cursor: context-menu;
 }
-@media screen and (min-width: 700px) and (max-width: 1330px) {
+@media screen and (min-width: 600px) and (max-width: 1330px) {
   .sidenav {
     /* border: 1px solid red; */
     width: 12%;
@@ -135,5 +135,15 @@
     margin-left: 12px;
     color: #777b85;
     font-family: "Manrope", sans-serif;
+  }
+  .sidenav .navbar .navbar_list li a {
+    /* border: 1px solid red; */
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 37px;
+    border-radius: 6px;
+    margin-bottom: 0px;
   }
 }
