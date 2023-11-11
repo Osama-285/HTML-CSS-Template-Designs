@@ -729,4 +729,39 @@
     margin: 0px !important;
     margin-bottom: 4px !important;
   }
+  .main_body .center_mid .center .graph .bar_graph .bar {
+    width: 5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 6px;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .jan_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 91%;
+    margin-top: 9px;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
+  .main_body .center_mid .center .graph .top_graph .month_Rev .icon {
+    display: inline-flex;
+    color: #777b85;
+    font-size: 21px;
+  }
+  .main_body .center_mid .center .graph .top_graph .month_Rev .amount {
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+  }
+  .main_body .center_mid .center .graph .top_graph h4 {
+    margin-bottom: 2px;
+    font-family: "Manrope", sans-serif;
+    color: #777b85;
+    font-size: 14px;
+  }
 }
