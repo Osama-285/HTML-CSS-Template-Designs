@@ -866,4 +866,49 @@
     color: #777b85;
     font-size: 14px;
   }
+  .main_body .center_mid .center .graph .bar_graph .bar .dec_graph {
+    width: 100%;
+    margin-bottom: 2px;
+    height: 95%;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-top: 36px;
+    transition: background-color 0.3s;
+  }
+  .main_body .main_center .totals .total_revenus .total_botom .common_text {
+    color: rgb(62, 62, 62);
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin: 0px 5px 0px 0px;
+  }
+  .main_body
+    .main_center
+    .totals
+    .total_revenus
+    .total_botom
+    .common_text_icon {
+    color: rgb(119, 123, 133);
+    font-size: 25px;
+  }
+  .main_body
+    .main_center
+    .totals
+    .total_revenus
+    .total_botom
+    .total_sign
+    .total_icon {
+    font-size: 9px;
+  }
+  .main_body .main_center .totals .total_revenus .total_botom .total_sign {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    color: #00b900;
+    font-size: 10px;
+    width: 35px;
+    height: 17px;
+    border-radius: 8px;
+    background-color: #09db0929;
+  }
 }
