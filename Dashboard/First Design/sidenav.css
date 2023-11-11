@@ -100,3 +100,40 @@
   color: white;
   cursor: context-menu;
 }
+@media screen and (min-width: 700px) and (max-width: 1330px) {
+  .sidenav {
+    /* border: 1px solid red; */
+    width: 12%;
+    height: 95vh;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 100%;
+  }
+  .sidenav .navbar .navbar_list li a .icon {
+    font-size: 15px;
+    margin-left: 0%;
+    color: #777b85;
+  }
+  .sidenav .navbar_bottom .logout .icon {
+    font-size: 15px;
+    margin-left: 0%;
+    color: #777b85;
+  }
+  .sidenav .navbar_bottom {
+    width: 90%;
+    height: 20%;
+    padding: 6px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .sidenav .navbar_bottom .logout .icon_text {
+    font-size: 14px;
+    margin-left: 12px;
+    color: #777b85;
+    font-family: "Manrope", sans-serif;
+  }
+}
