@@ -758,7 +758,99 @@
     background-color: #b3b4b64f;
     margin-bottom: 2px;
   }
+  .main_body .center_mid .center .graph .bar_graph .bar .mar_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    margin-top: 40px;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
 
+  .main_body .center_mid .center .graph .bar_graph .bar .apr_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    border-radius: 4px;
+    margin-top: 32px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
+
+  .main_body .center_mid .center .graph .bar_graph .bar .may_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+    margin-top: 16px;
+  }
+
+  .main_body .center_mid .center .graph .bar_graph .bar .july_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    margin-top: 38px;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .aug_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    border-radius: 4px;
+    margin-top: 48px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .june_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    border-radius: 4px;
+    margin-top: 3px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .sep_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    margin-top: 2px;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .oct_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+    margin-top: -6px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .nov_graph {
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 95%;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-bottom: 2px;
+    margin-top: 38px;
+  }
+  .main_body .center_mid .center .graph .bar_graph .bar .dec_graph {
+    width: 100%;
+    margin-bottom: 2px;
+    height: 95%;
+    border-radius: 4px;
+    background-color: #b3b4b64f;
+    margin-top: 36px;
+    transition: background-color 0.3s;
+  }
   .main_body .center_mid .center .graph .top_graph .month_Rev .icon {
     display: inline-flex;
     color: #777b85;
