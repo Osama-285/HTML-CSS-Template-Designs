@@ -705,6 +705,28 @@
   tr
   .due {
   color: #ff080880;
+}
 
-  /* background-color: #a3fda3; */
+@media screen and (min-width: 700px) and (max-width: 1330px) {
+  .main_body
+    .center_mid
+    .center
+    .center_right
+    .table-container
+    .table_content
+    table
+    tbody
+    tr
+    td {
+    padding: 4px 0px;
+    font-family: "Manrope", sans-serif;
+    color: #666666;
+    width: 20%;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 8px;
+
+    margin: 0px !important;
+    margin-bottom: 4px !important;
+  }
 }
