@@ -707,7 +707,7 @@
   color: #ff080880;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1330px) {
+@media screen and (min-width: 950px) and (max-width: 1330px) {
   .main_body
     .center_mid
     .center
