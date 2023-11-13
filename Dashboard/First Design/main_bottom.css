@@ -206,7 +206,7 @@
   height: 100%;
   background-color: rgb(255, 255, 255);
 }
-@media screen and (min-width: 950px) and (max-width: 1330px) {
+@media screen and (min-width: 900px) and (max-width: 1430px) {
   .main_body
     .main_center
     .center_mid
