@@ -206,3 +206,91 @@
   height: 100%;
   background-color: rgb(255, 255, 255);
 }
+@media screen and (min-width: 950px) and (max-width: 1330px) {
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .person_info
+    img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .person_info
+    .profile_gap {
+    height: 50px;
+    width: 5.5px;
+    border-radius: 2px;
+    margin: 10px 0px;
+    background-color: rgb(210, 208, 208);
+  }
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .invoice_info {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .invoice_info
+    .invoice_icon {
+    color: rgb(4, 189, 4);
+    display: inline-flex;
+    align-items: center;
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .invoice_info
+    .invoice_detail {
+    font-family: Manrope, sans-serif;
+    font-size: 12px;
+    margin-left: 2px;
+  }
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .invoice_info
+    .invoice_time {
+    font-family: Manrope, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(168, 168, 168);
+    margin-top: 4px;
+  }
+}
