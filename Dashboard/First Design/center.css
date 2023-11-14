@@ -881,6 +881,27 @@
     font-family: Roboto, sans-serif;
     margin: 0px 5px 0px 0px;
   }
+
+  .main_body .main_center .totals .total_invoices .total_botom .common_text {
+    color: #3e3e3e;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .main_body .main_center .totals .total_clients .total_botom .common_text {
+    color: #3e3e3e;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .main_body .main_center .totals .total_loyality .total_botom .common_text {
+    color: #3e3e3e;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 5px 0px 0px;
+  }
   .main_body
     .main_center
     .totals
@@ -910,5 +931,41 @@
     height: 17px;
     border-radius: 8px;
     background-color: #09db0929;
+  }
+  .main_body .main_center .totals .total_invoices .total_botom .total_sign {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    color: #00b900;
+    font-size: 10px;
+    width: 35px;
+    height: 17px;
+    border-radius: 8px;
+    background-color: #09db0929;
+  }
+  .main_body .main_center .totals .total_clients .total_botom .total_sign {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    color: #00b900;
+    font-size: 10px;
+    width: 35px;
+    height: 17px;
+    border-radius: 8px;
+    background-color: #09db0929;
+  }
+  .main_body .main_center .totals .total_loyality .total_botom .total_sign {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    color: #ff0000;
+    font-size: 10px;
+    width: 35px;
+    height: 17px;
+    border-radius: 8px;
+    background-color: #db09092e;
   }
 }
