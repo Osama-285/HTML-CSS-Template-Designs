@@ -708,6 +708,13 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 1430px) {
+  .main_body {
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 95vh;
+    /* padding: 5px; */
+    padding-left: 60px;
+  }
   .main_body
     .center_mid
     .center
@@ -970,7 +977,7 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 940px) {
+@media screen and (min-width: 700px) and (max-width: 930px) {
   .main_body .center_mid .center {
     height: 100%;
 

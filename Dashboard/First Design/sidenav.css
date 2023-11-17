@@ -100,7 +100,7 @@
   color: white;
   cursor: context-menu;
 }
-@media screen and (min-width: 900px) and (max-width: 1430px) {
+@media screen and (min-width: 700px) and (max-width: 1430px) {
   .sidenav {
     /* border: 1px solid red; */
     width: 12%;
