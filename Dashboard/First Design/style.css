@@ -7,6 +7,7 @@ body {
   background-color: #fbfbfb;
   position: relative;
 }
+
 .main {
   display: flex;
   flex-direction: row;
@@ -14,4 +15,10 @@ body {
   justify-content: center;
   background-color: #eef3f8;
   padding: 8px;
+}
+@media screen and (min-width: 700px) and (max-width: 930px) {
+  body {
+    height: 130vh;
+    border: 2px solid red;
+  }
 }
