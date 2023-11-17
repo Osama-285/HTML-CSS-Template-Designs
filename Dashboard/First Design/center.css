@@ -977,6 +977,10 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 930px) {
+  .main_body {
+    width: 85%;
+    height: 100%;
+  }
   .main_body .center_mid .center {
     height: 100%;
 
@@ -996,7 +1000,7 @@
   .main_body .center_mid .center .center_right {
     width: 100%;
     height: 45%;
-    /* margin-left: 15px !important; */
+
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     display: flex;

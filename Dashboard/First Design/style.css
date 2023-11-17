@@ -21,4 +21,7 @@ body {
     height: 130vh;
     border: 2px solid red;
   }
+  .main {
+    height: 100%;
+  }
 }
