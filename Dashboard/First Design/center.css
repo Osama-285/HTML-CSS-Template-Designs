@@ -1033,3 +1033,26 @@
     padding: 12px 24px;
   }
 }
+@media screen and (min-width: 600px) and (max-width: 730px) {
+  .main_body .main_top .profile_info .profile_photo {
+    margin-right: 6px;
+    width: 25px;
+    /* border: 2px solid red; */
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 800;
+    background-color: #0560fd;
+    font-size: 10px;
+  }
+  .main_body .main_top .profile_info .profile_name {
+    font-size: 12px;
+    color: black;
+    font-weight: 800;
+  }
+  .main_body .main_top .profile_info .profile_email {
+    font-size: 11px;
+  }
+}
