@@ -294,3 +294,18 @@
     margin-top: 4px;
   }
 }
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .main_body
+    .main_center
+    .center_mid
+    .center_bottom
+    .activites
+    .activites_content
+    .created_invoice
+    .invoice_info
+    .invoice_detail {
+    font-family: Manrope, sans-serif;
+    font-size: 9px;
+    margin-left: 2px;
+  }
+}
