@@ -1011,6 +1011,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    flex-direction: column;
     /* padding: 4px; */
   }
   .main_body .center_mid .center .graph {
@@ -1020,6 +1021,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    margin: 14px 0px;
   }
   .main_body .center_mid .center .center_right {
     width: 100%;
