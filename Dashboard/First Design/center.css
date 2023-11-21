@@ -707,7 +707,7 @@
   color: #ff080880;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1430px) {
+@media screen and (min-width: 500px) and (max-width: 1430px) {
   .main_body {
     /* border: 2px solid red; */
     width: 85%;
@@ -976,7 +976,7 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 930px) {
+@media screen and (min-width: 500px) and (max-width: 930px) {
   .main_body {
     width: 85%;
     height: 100%;
@@ -1035,7 +1035,7 @@
     padding: 12px 24px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 730px) {
+@media screen and (min-width: 500px) and (max-width: 730px) {
   .main_body .main_top .profile_info .profile_photo {
     margin-right: 6px;
     width: 25px;
